@@ -1,34 +1,51 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js + Tailwind CSS + TypeScript + Prettier Starter Template
+
+This starter template is pre-configured with the following technologies to kickstart your Next.js project:
+
+- Next.js
+- Tailwind CSS
+- TypeScript
+- Prettier with a plugin for Tailwind CSS
+
+This setup allows you to write React code in TypeScript, style your components using Tailwind CSS, and ensures your code is properly formatted with Prettier.
 
 ## Getting Started
 
-First, run the development server:
+### Follow these steps to create a new project based on this template:
+
+### Step 1: Clone the repository:
+
+```bash
+git clone https://github.com/blazeshomida/template_nextjs_tailwind_prettier.git
+```
+
+### Step 2: Install dependencies:
+
+Navigate to your new project's directory, and install the necessary dependencies:
+
+```bash
+cd template_nextjs_tailwind_prettier
+npm install
+```
+
+### Step 3: Start the development server:
+
+Now you can start your development server and open your new project in the browser:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Open http://localhost:3000 in your browser to see your new project!
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Configuration
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+If you're using Visual Studio Code and the Prettier extension, you'll need to ensure that the "Require Config" option is enabled for the extension. This tells Prettier to always use the configuration file (.prettierrc) in your project, which includes settings for Tailwind CSS.
 
-## Learn More
+To enable "Require Config":
 
-To learn more about Next.js, take a look at the following resources:
+1. Open your Visual Studio Code settings (File -> Preferences -> Settings or by pressing Ctrl+,).
+2. Search for "Prettier: Require Config".
+3. Check the box to enable it.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Now, Prettier will always use your project's configuration file, ensuring your Tailwind CSS is properly formatted.
