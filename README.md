@@ -25,7 +25,7 @@ Navigate to your new project's directory, and install the necessary dependencies
 
 ```bash
 cd template_nextjs_tailwind_prettier
-npm install
+pnpm install
 ```
 
 ### Step 3: Start the development server:
@@ -33,7 +33,7 @@ npm install
 Now you can start your development server and open your new project in the browser:
 
 ```bash
-npm run dev
+pnpm run dev
 ```
 
 ### Open http://localhost:3000 in your browser to see your new project!
